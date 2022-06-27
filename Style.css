@@ -10,6 +10,29 @@ li{
     display: inline-block;
     margin: 20px;
 }
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  /*parte de aparencia dos links*/
+  a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
 
 header{
     display: flex;
